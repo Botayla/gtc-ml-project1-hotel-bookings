@@ -22,7 +22,7 @@ This project **focuses only on data preparation and cleaning**, not on building 
 - Generated summary statistics with `.describe()` and `.info()`
 - Checked missing values (`df.isna().sum()`)
 - Visualized missing data (using `missingno` / seaborn heatmap)
-- Detected outliers in numerical columns using IQR method and Visualize Box plot
+- Detected outliers in numerical columns using IQR method and Visualize Box plot , Histograme plot
 - Key Data Quality Issues:
   - Missing values in `company`, `agent`, `children`, `country`
   - Outliers in many columns
@@ -47,7 +47,7 @@ This project **focuses only on data preparation and cleaning**, not on building 
    - `total_nights = stays_in_weekend_nights + stays_in_week_nights`
    - `is_family` = 1 if children or babies > 0, else 0
 6. **Encoding**
-   - One-Hot Encoding for categorical low-cardinality(less than or equal 12) variables (`meal`, `market_segment`)
+   - One-Hot Encoding for categorical low-cardinality(less than or equal 12) variables (`meal`, `market_segment`) , showing count plot visualization 
    - Frequency Encoding for high-cardinality (`country`)
 7. **Splitting Data**
    - split Data to X , Y(target `is_canceled`)
@@ -64,10 +64,3 @@ This project **focuses only on data preparation and cleaning**, not on building 
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repo / open folder
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
