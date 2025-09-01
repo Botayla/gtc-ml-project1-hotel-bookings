@@ -57,10 +57,11 @@ This project **focuses only on data preparation and cleaning**, not on building 
 
 ## 📊 Tools & Libraries
 
-- Python 3.x
+- Python 3
 - Pandas, NumPy
 - Matplotlib, Seaborn, Missingno
 - Scikit-learn (for preprocessing ,splitting data)
 
 ---
+
 
